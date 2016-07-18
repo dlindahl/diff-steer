@@ -1,0 +1,32 @@
+{
+  "name": "diff-steer",
+  "version": "0.0.1",
+  "description": "Differential steering algorithim for driving a two-motor bot with a two-axis joystick",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=4.4.7"
+  },
+  "bugs": {
+    "url": "https://github.com/dlindahl/diff-steer/issues"
+  },
+  "homepage": "https://github.com/dlindahl/diff-steer#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dlindahl/diff-steer.git"
+  },
+  "author": "Derek Lindahl",
+  "license": "MIT",
+  "contributors": [],
+  "keywords": [
+    "steering",
+    "nodebots",
+    "sumobots",
+    "sumobot",
+    "joystick",
+    "gamepad"
+  ],
+  "dependencies": {}
+}
