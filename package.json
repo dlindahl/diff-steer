@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test:lint": "eslint *.js lib/**/*.js test/**/*.js",
-    "test": "npm run test:lint"
+    "test:unit": "ava test/*_test.js",
+    "test": "npm run test:lint && npm run test:unit"
   },
   "engines": {
     "node": ">=4.4.7"
@@ -33,6 +34,7 @@
     "lodash.clamp": "^4.0.2"
   },
   "devDependencies": {
+    "ava": "^0.15.2",
     "sinon": "^1.17.4"
   }
 }
