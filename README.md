@@ -2,6 +2,8 @@
 
 > Provides a simple interface to a differential steering algorithm to control two motors from one two-axis joystick.
 
+Ported into Javascript from [http://www.codeproject.com/Tips/879300/Differential-Drive-Control-Algorithm](http://www.codeproject.com/Tips/879300/Differential-Drive-Control-Algorithm)
+
 ## Installation
 
     npm i diff-steer --save
