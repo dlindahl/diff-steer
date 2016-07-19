@@ -57,7 +57,7 @@ If you are using [Johnny-Five][j5], you can pass your `five.Motors` collection t
 var steerMotors = require('diff-steer/motor_control');
 // Refer to J5 docs for more info on motor shield configs
 var config = five.Motor.SHIELD_CONFIGS.ADAFRUIT_V1;
-var wheels = new five.Motors([config.M1, config.M2]);
+var wheels = new five.Motors([config.M1, config.M2]); // Left motor, right motor
 // ...
 gamepad.on('move', function(id, axis, value) {
   if(axis == 0 || axis == 1) {
