@@ -4,7 +4,8 @@
   "description": "Differential steering algorithim for driving a two-motor bot with a two-axis joystick",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test:lint": "eslint *.js lib/**/*.js test/**/*.js",
+    "test": "npm run test:lint"
   },
   "engines": {
     "node": ">=4.4.7"
@@ -30,5 +31,8 @@
   ],
   "dependencies": {
     "lodash.clamp": "^4.0.2"
+  },
+  "devDependencies": {
+    "sinon": "^1.17.4"
   }
 }
