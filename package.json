@@ -28,5 +28,7 @@
     "joystick",
     "gamepad"
   ],
-  "dependencies": {}
+  "dependencies": {
+    "lodash.clamp": "^4.0.2"
+  }
 }
