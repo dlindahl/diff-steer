@@ -46,8 +46,7 @@ diffSteer.minAxis = 0;
 USB gamepads return a negative number of `UP` and a positive number for `DOWN`. If your device does not follow this pattern (or you'd prefer a different control scheme), you can flip the axis:
 
 ```js
-diffSteer.maxAxis = 1023;
-diffSteer.minAxis = 0;
+diffSteer.flipAxis = 1; // Defaults to -1
 ```
 
 ### Johnny-Five
