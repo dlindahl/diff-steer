@@ -1,6 +1,6 @@
 {
   "name": "diff-steer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Differential steering algorithim for driving a two-motor bot with a two-axis joystick",
   "main": "index.js",
   "scripts": {
